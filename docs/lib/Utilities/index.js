@@ -9,6 +9,10 @@ const items = [
   {
     name: 'Clearfix',
     to: '/utilities/clearfix/'
+  },
+  {
+    name: 'Navbar',
+    to: '/utilities/navbar/'
   }
 ];
 

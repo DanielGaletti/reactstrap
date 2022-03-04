@@ -7,6 +7,7 @@ import SectionTitle from '../UI/SectionTitle';
 import NavbarExample from '../examples/Navbar';
 const NavbarExampleSource = require('!!raw-loader!../examples/Navbar');
 import NavbarTogglerExample from '../examples/NavbarToggler';
+import AcessibilityNavbar from '../Acessibility/components/Navbar';
 const NavbarTogglerExampleSource = require('!!raw-loader!../examples/NavbarToggler');
 
 export default class NavsPage extends React.Component {
@@ -79,6 +80,7 @@ export default class NavsPage extends React.Component {
 }`}
           </PrismCode>
         </pre>
+        <AcessibilityNavbar />
       </div>
     );
   }
